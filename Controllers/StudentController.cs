@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
+using SampleSecureWeb.Data;
 using SampleSecureWeb.Models;
 
 
@@ -8,6 +9,7 @@ namespace SampleSecureWeb;
 public class StudentController : Controller
 {
     private readonly IStudent _studentData;
+
     public StudentController(IStudent studentData)
     {
         _studentData = studentData;

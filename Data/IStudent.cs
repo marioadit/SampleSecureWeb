@@ -1,7 +1,7 @@
 ﻿using System;
 using SampleSecureWeb.Models;
 
-namespace SampleSecureWeb;
+namespace SampleSecureWeb.Data;
 
 public interface IStudent
 {
